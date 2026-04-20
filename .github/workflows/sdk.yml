@@ -1,6 +1,8 @@
 name: SDK Integration & Demo
 
 on:
+  schedule:
+    - cron: '0 */3 * * *'
   push:
     branches: [main, develop]
     paths:
