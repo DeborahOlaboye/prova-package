@@ -1,6 +1,6 @@
 {
   "name": "prova-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript SDK for interacting with Prova freelance escrow contracts on Celo",
   "keywords": ["prova", "celo", "escrow", "freelance", "sdk", "viem"],
   "license": "MIT",
@@ -14,7 +14,7 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
